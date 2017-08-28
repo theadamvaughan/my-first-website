@@ -1,13 +1,35 @@
 /* All page info */
 
 body {
-  background-color: #a0bbe5;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/ac/3c/24/ac3c24dd394c581ebdcedbe73646a273.jpg");
+  background-attachment: fixed;
+}
+p {
+      color: white;
+}
+
+ol {
+      color: white;
+      font-family: Arial;
 }
 
 h1 {
   font-family: Arial;
-  font-size: 50px;
+  font-size: 70px;
   text-align: center;
+  color: white;
+}
+
+h2 {
+  font-family: Arial;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+p {
+  font-size: 18px;
+  font-family: Arial;
 }
 
 /* Navigation bar code */
@@ -25,6 +47,8 @@ div.nav li {
 }
 
 div.nav li a {
+    font-family: Arial;
+    font-size: 25px;
     display: block;
     color: white;
     text-align: center;
@@ -32,9 +56,22 @@ div.nav li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Changes the hover colour */
 li a:hover {
-    background-color: #111;
+    background-color: #918b8a;
+}
+
+/* Main page Picture */
+
+div.main-pic img {
+  float: right;
+  width: 500px;
+  height: auto;
+}
+
+div.main-page p {
+  font-family: Arial;
+  font-size: 25px;
 }
 
 /* This is the gallery page css */
@@ -43,7 +80,7 @@ div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: center;
-    width: 180px;
+    width: 500px;
 }
 
 div.gallery:hover {
@@ -57,6 +94,9 @@ div.gallery img {
 }
 
 div.desc {
+    font-family: Arial;
+    font-size: 25px;
     padding: 15px;
     text-align: center;
+    color: white;
 }
