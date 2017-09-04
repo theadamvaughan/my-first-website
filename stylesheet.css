@@ -44,7 +44,7 @@ a:visited {
   color: #f7806c;
 }
 
-/* Navigation bar code */
+/* Old Navigation bar code
 
 div.nav {
   list-style-type: none;
@@ -66,6 +66,7 @@ div.nav li a {
     padding: 15px;
     text-decoration: none;
 }
+*/
 
 /* Changes the hover colour */
 li a:hover {
@@ -117,6 +118,13 @@ div.desc {
     color: white;
 }
 
+div.instagram {
+    margin: auto;
+    border: 1px solid #ccc;
+    float: center;
+    width: 500px;
+}
+
 /* Music Page */
 
 div.music-pic img {
@@ -148,8 +156,6 @@ div.container {
     overflow: hidden;
     background-color: #333;
     font-family: Arial;
-    border: none;
-    outline: none;
 }
 
 div.container a {
@@ -157,7 +163,6 @@ div.container a {
     float: left;
     font-size: 20px;
     color: white;
-    border: none;
     outline: none;
     text-align: center;
     padding: 14px 16px;
