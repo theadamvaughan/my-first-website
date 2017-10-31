@@ -1,0 +1,35 @@
+/* All page info */
+
+body {
+  background-image: url("http://ganymede.meccahosting.com/~a0008219/images/backgroundforce4studios2.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: Courier;
+  font-size: 40px;
+  text-align: center;
+  color: black;
+}
+
+p {
+  font-size: 20px;
+  font-family: Courier;
+  color: black;
+}
+
+
+div.main-page p {
+  font-family: Courier;
+  font-size: 25px;
+  text-align: center;
+}
+
+/* Gaming Page */
+
+div.retro {
+  font-size:12px;
+  text-align:center;
+}
