@@ -216,3 +216,11 @@ div.dropdown-content a:hover {
 .dropdown:hover div.dropdown-content {
     display: block;
 }
+
+/* This is the retro gaming page css */
+
+div.retro {
+  font-size:12px;d
+  isplay:inline-block;
+  text-align:center;"
+}
