@@ -1,11 +1,11 @@
 /* nav bar css */
 
-.nav {
+  .nav {
     background-color: #436e43;
     text-align: center;
 }
 
-.nav li {
+  .nav li {
     list-style-type: none;
     display: inline-block;
     padding: 8px 8px 8px 8px;
@@ -13,22 +13,22 @@
     background-color: inherit;
 }
 
-nav a:visited {
+  nav a:visited {
     color: white;
 }
 
-nav a:link {
-  text-decoration: none;
-  color: white;
+  nav a:link {
+    text-decoration: none;
+    color: white;
 }
 
-li a:hover {
+  li a:hover {
     color: #f9bf3b;
 }
 
 /* end of nav bar css */
 
-.footer {
+  footer {
     left: 0;
     bottom: 0;
     width: 100%;
@@ -37,18 +37,24 @@ li a:hover {
     text-align: center;
 }
 
-h1 {
+  h1 {
     border: 3px solid #bdc3c7;
     text-align: center;
 }
 
-a:link {
-  text-decoration: none;
-  color: #436e43;
+  a:link {
+    text-decoration: none;
+    color: #436e43;
 
 }
 
-body {
-  font-family: Calibri;
-  background-color: white;
+  body {
+    font-family: Calibri;
+    background-color: white;
+}
+
+  script {
+    text-align: center;
+    width: 100%;
+
 }
