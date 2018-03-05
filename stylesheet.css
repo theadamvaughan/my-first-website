@@ -1,11 +1,11 @@
 /* nav bar css */
 
-  .nav {
+  nav {
     background-color: #436e43;
     text-align: center;
 }
 
-  .nav li {
+  nav li {
     display: inline-block;
     padding: 16px 24px 16px 24px;
     color: white;
@@ -13,7 +13,7 @@
     font-size: 20px;
 }
 
-  .nav ul {
+  nav ul {
     position: fixed;
     overflow: hidden;
     background-color: inherit;
@@ -36,6 +36,8 @@
 }
 
 /* end of nav bar css */
+
+/* generic attributes */
 
   footer {
     left: 0;
@@ -84,6 +86,8 @@
     padding: 2px;
   }
 
+/* index page attributes */
+
   .main-page h2 {
     font-size: 40px;
     text-align: center;
@@ -96,3 +100,20 @@
     font-size: 25px;
     padding-bottom: 70px;
   }
+
+  h3 a:visited {
+    color: white;
+}
+
+  h3 a:link {
+    text-decoration: none;
+    color: white;
+
+/* about page attributes
+
+  .about-page p {
+    padding-bottom: 35px;
+    padding-top: 35px;
+  }
+
+  */
