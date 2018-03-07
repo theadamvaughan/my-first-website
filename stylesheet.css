@@ -40,8 +40,6 @@
 /* generic attributes */
 
   footer {
-    left: 0;
-    bottom: 0;
     width: 100%;
     background-color: #436e43;
     color: white;
@@ -103,17 +101,31 @@
 
   h3 a:visited {
     color: white;
-}
+  }
 
   h3 a:link {
     text-decoration: none;
     color: white;
-
-/* about page attributes
-
-  .about-page p {
-    padding-bottom: 35px;
-    padding-top: 35px;
   }
 
-  */
+/* about page attributes */
+
+  .about-footer {
+    width: 100%;
+    background-color: #436e43;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .about-page-header h1 {
+    margin-bottom: 50px;
+  }
+
+  /* form attributes */
+
+  .contact-form {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+  }
