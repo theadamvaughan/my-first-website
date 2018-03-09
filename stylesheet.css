@@ -125,7 +125,27 @@
   /* form attributes */
 
   .contact-form {
-      border-radius: 5px;
-      background-color: #f2f2f2;
-      padding: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .contact-form p {
+
+  }
+
+  input[type=submit], input[type=reset] {
+    background-color: #436e43;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Calibri;
+    font-size: 14px;
+  }
+
+  input[type=submit]:hover, input[type=reset]:hover {
+    color: #f9bf3b;
   }
