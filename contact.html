@@ -23,15 +23,15 @@
       <form action="http://lacedeamon.spartaglobal.com/contactform" method="post">
         <p>
           <label for="name">Your Name</label><br>
-          <input type="text" name="name" id="name" placeholder="name" required>
+          <input type="text" name="name" id="name" placeholder="name" maxlength="30" required>
         </p>
         <p>
           <label class="your-email" for="email">Your Email Address</label><br>
-          <input type="email" name="email" id="email" placeholder="email address" required>
+          <input type="email" name="email" id="email" placeholder="example@adamvaughan.net" required>
         </p>
         <p>
           <label class"message" for="message">Message</label><br>
-          <textarea name="message" id="message" placeholder="add comments here" required></textarea>
+          <textarea name="message" id="message" placeholder="add comments here (max 140 characters)" maxlength="140" required></textarea>
         </p>
         <p>
           <input type="hidden" name="addressee" value="adam" id="addressee">
