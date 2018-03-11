@@ -133,7 +133,7 @@
   }
 
   .contact-form p {
-
+    font-size: 18px;
   }
 
   input[type=submit], input[type=reset] {
@@ -162,16 +162,23 @@
     -webkit-transition: 1.0s;
     transition: 1.0s;
     outline: none;
+    font-size: 14px;
   }
 
   input[type=text]:focus {
-      border: 3px solid #f9bf3b;
+    border: 3px solid #f9bf3b;
   }
 
   input[type=email]:focus {
-      border: 3px solid #f9bf3b;
+    border: 3px solid #f9bf3b;
   }
 
   textarea[name=message]:focus {
-      border: 3px solid #f9bf3b;
+    border: 3px solid #f9bf3b;
+  }
+
+  textarea {
+    resize: none;
+    height: 100px;
+
   }
