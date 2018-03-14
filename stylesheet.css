@@ -112,7 +112,7 @@
 
 /* about page attributes */
 
-  .about-author img {
+  .about-author img, .article-author img {
     border-radius: 50%;
   }
 
@@ -130,6 +130,10 @@
 
   .about-page-header h1 {
     margin-bottom: 50px;
+  }
+
+  .about-author p {
+    font-size: 20px;
   }
 
   /* form attributes */
@@ -189,4 +193,21 @@
   textarea {
     resize: none;
     height: 100px;
+  }
+
+  /* work page attributes */
+
+  .article-author img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+  }
+
+  .post-date {
+    color: #D2D2D2;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding-left: 10px;
   }
