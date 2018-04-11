@@ -5,6 +5,8 @@
   nav {
     background-color: #436e43;
     text-align: center;
+    position: relative;
+    z-index: 1;
 }
 
   nav li {
@@ -18,7 +20,6 @@
 
   nav ul {
     position: fixed;
-    overflow: hidden;
     background-color: inherit;
     top: -20px;
     width: 100%;
@@ -227,6 +228,15 @@
     padding-top: 25px;
     margin: 10px 10px;
     height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .innerbox:hover {
+    border: 3px solid #f9bf3b;
+  }
+
+  .innerbox a:visited {
+    color: #436e43;
   }
 
   .imagebox {
@@ -252,6 +262,7 @@
     margin: 0 auto;
     width: 195px;
     text-align: center;
+    opacity: 0.5;
   }
 
   .landscape {
@@ -259,4 +270,9 @@
     width: 195px;
     margin: 0 auto;
     text-align: center;
+    opacity: 0.5;
+  }
+
+  .portrait:hover, .landscape:hover {
+    opacity: 1.0;
   }
