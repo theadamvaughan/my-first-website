@@ -1,278 +1,275 @@
 @import url=(http://fonts.googleapis.com/css?family=Monserrat:400,700);
 
+body {
+  font-family: 'Calibri';
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h1 {
+  margin-top: 70px;
+  border: 3px solid #bdc3c7;
+  text-align: center;
+  padding: 8px 16px 8px 16px;
+}
+
+h2 {
+  border-bottom: 3px solid #436e43;
+  padding-bottom: 16px;
+}
+
+h3 {
+  padding: 8px 16px 8px 16px;
+  color: white;
+  background-color: #436e43;
+}
+h3 a:visited {
+  color: white;
+}
+
+h3 a:link {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  width: 100%;
+  background-color: #436e43;
+  color: white;
+  text-align: center;
+}
+
 /* nav bar css */
 
-  nav {
-    background-color: #436e43;
-    text-align: center;
-    position: relative;
-    z-index: 1;
+nav {
+  background-color: #436e43;
+  text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
-  nav li {
-    display: inline-block;
-    padding: 16px 24px 16px 24px;
-    color: white;
-    background-color: inherit;
-    font-size: 20px;
-    letter-spacing: 0.1em;
+nav li {
+  display: inline-block;
+  padding: 16px 24px 16px 24px;
+  color: white;
+  background-color: inherit;
+  font-size: 20px;
+  letter-spacing: 0.1em;
 }
 
-  nav ul {
-    position: fixed;
-    background-color: inherit;
-    top: -20px;
-    width: 100%;
-    left: -20px;
+nav ul {
+  position: fixed;
+  background-color: inherit;
+  top: -20px;
+  width: 100%;
+  left: -20px;
 }
 
-  nav a:visited {
-    color: white;
+nav a:visited {
+  color: white;
 }
 
-  nav a:link {
-    text-decoration: none;
-    color: white;
+nav a:link {
+  text-decoration: none;
+  color: white;
 }
 
-  li a:hover {
-    color: #f9bf3b;
+li a:hover {
+  color: #f9bf3b;
 }
 
 /* end of nav bar css */
 
-/* generic attributes */
-
-  footer {
-    width: 100%;
-    background-color: #436e43;
-    color: white;
-    text-align: center;
-}
-
-  h1 {
-    margin-top: 70px;
-    border: 3px solid #bdc3c7;
-    text-align: center;
-    padding: 8px 16px 8px 16px;
-}
-
-  a:link {
-    text-decoration: none;
-    color: #436e43;
+a:link {
+  text-decoration: none;
+  color: #436e43;
 
 }
 
-  body {
-    font-family: 'Calibri';
-    background-color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+iframe {
+  border: 3px solid #436e43;
+  border-radius: 5px;
+  padding: 2px;
 }
-
-  h2 {
-    border-bottom: 3px solid #436e43;
-    padding-bottom: 16px;
-  }
-
-  h3 {
-    padding: 8px 16px 8px 16px;
-    color: white;
-    background-color: #436e43;
-  }
-
-  iframe {
-    border: 3px solid #436e43;
-    border-radius: 5px;
-    padding: 2px;
-  }
 
 /* index page attributes */
 
-  .main-page h2 {
-    font-size: 40px;
-    text-align: center;
-    padding-top: 70px;
-    border-bottom: none;
-  }
+.main-page h2 {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 70px;
+  border-bottom: none;
+}
 
-  .main-page p {
-    text-align: center;
-    font-size: 25px;
-    padding-bottom: 70px;
-  }
-
-  h3 a:visited {
-    color: white;
-  }
-
-  h3 a:link {
-    text-decoration: none;
-    color: white;
-  }
+.main-page p {
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 70px;
+}
 
 /* about page attributes */
 
-  .about-author img, .article-author img {
-    border-radius: 50%;
-  }
+.about-author img, .article-author img {
+  border-radius: 50%;
+}
 
-  .about-container{
-    text-align: center;
-  }
+.about-container{
+  text-align: center;
+}
 
-  .about-footer {
-    width: 100%;
-    background-color: #436e43;
-    color: white;
-    text-align: center;
-    margin-top: 50px;
-  }
+.about-footer {
+  width: 100%;
+  background-color: #436e43;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
 
-  .about-page-header h1 {
-    margin-bottom: 50px;
-  }
+.about-page-header h1 {
+  margin-bottom: 50px;
+}
 
-  .about-author p {
-    font-size: 20px;
-  }
+.about-author p {
+  font-size: 20px;
+}
 
-  /* form attributes */
+/* form attributes */
 
-  .contact-form {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    margin-left: 120px;
-    margin-right: 120px;
-  }
+.contact-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
 
-  .contact-form p {
-    font-size: 18px;
-  }
+.contact-form p {
+  font-size: 18px;
+}
 
-  input[type=submit], input[type=reset] {
-    background-color: #436e43;
-    color: white;
-    padding: 8px 16px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
-    font-size: 14px;
-    border-radius: 5px;
+input[type=submit], input[type=reset] {
+  background-color: #436e43;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
 
-  }
+}
 
-  input[type=submit]:hover, input[type=reset]:hover {
-    color: #f9bf3b;
-  }
+input[type=submit]:hover, input[type=reset]:hover {
+  color: #f9bf3b;
+}
 
-  input[type=text], input[type=email], textarea[name=message] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 3px solid #ccc;
-    -webkit-transition: 1.0s;
-    transition: 1.0s;
-    outline: none;
-    font-size: 14px;
-  }
+input[type=text], input[type=email], textarea[name=message] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 1.0s;
+  transition: 1.0s;
+  outline: none;
+  font-size: 14px;
+}
 
-  input[type=text]:focus {
-    border: 3px solid #f9bf3b;
-  }
+input[type=text]:focus {
+  border: 3px solid #f9bf3b;
+}
 
-  input[type=email]:focus {
-    border: 3px solid #f9bf3b;
-  }
+input[type=email]:focus {
+  border: 3px solid #f9bf3b;
+}
 
-  textarea[name=message]:focus {
-    border: 3px solid #f9bf3b;
-  }
+textarea[name=message]:focus {
+  border: 3px solid #f9bf3b;
+}
 
-  textarea {
-    resize: none;
-    height: 100px;
-  }
+textarea {
+  resize: none;
+  height: 100px;
+}
 
-  /* work page attributes */
+/* work page attributes */
 
-  .article-author img {
-    width: 50px;
-    height: 50px;
-    vertical-align: middle;
-  }
+.article-author img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
 
-  .post-date {
-    color: #bdc3c7;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    padding-left: 10px;
-  }
+.post-date {
+  color: #bdc3c7;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding-left: 10px;
+}
 
-  /* picture gallery attributes */
+/* picture gallery attributes */
 
-  .outerbox {
-    background-color: #bdc3c7;
-    border: 5px solid #436e43;
-    padding: 20px 20px;
-    text-align: center;
-  }
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
 
-  .innerbox {
-    display: inline-block;
-    background-color: white;
-    padding-top: 25px;
-    margin: 10px 10px;
-    height: 300px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+.outerbox {
+  background-color: #bdc3c7;
+  border: 5px solid #436e43;
+  padding: 20px 20px;
+  text-align: center;
+}
 
-  .innerbox:hover {
-    border: 3px solid #f9bf3b;
-  }
+.innerbox {
+  display: inline-block;
+  background-color: white;
+  padding-top: 25px;
+  margin: 10px 10px;
+  height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-  .innerbox a:visited {
-    color: #436e43;
-  }
+.innerbox:hover {
+  border: 3px solid #f9bf3b;
+}
 
-  .imagebox {
-    text-align: center;
-    height: 225px;
-    overflow: hidden;
-  }
+.innerbox a:visited {
+  color: #436e43;
+}
 
-  .image_desc {
-    margin: 20px 20px;
-    width: 205px;
-    max-width: 205px;
-    padding: 0;
-    text-align: center;
-  }
+.imagebox {
+  text-align: center;
+  height: 225px;
+  overflow: hidden;
+}
 
-  img {
-    max-width: 100%;
-    max-height: 100%;
-  }
+.image_desc {
+  margin: 20px 20px;
+  width: 205px;
+  max-width: 205px;
+  padding: 0;
+  text-align: center;
+}
 
-  .portrait {
-    margin: 0 auto;
-    width: 195px;
-    text-align: center;
-    opacity: 0.5;
-  }
+.portrait {
+  margin: 0 auto;
+  width: 195px;
+  text-align: center;
+  opacity: 0.5;
+}
 
-  .landscape {
-    padding-top: 40px;
-    width: 195px;
-    margin: 0 auto;
-    text-align: center;
-    opacity: 0.5;
-  }
+.landscape {
+  padding-top: 40px;
+  width: 195px;
+  margin: 0 auto;
+  text-align: center;
+  opacity: 0.5;
+}
 
-  .portrait:hover, .landscape:hover {
-    opacity: 1.0;
-  }
+.portrait:hover, .landscape:hover {
+  opacity: 1.0;
+}
