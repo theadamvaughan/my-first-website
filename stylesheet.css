@@ -24,7 +24,7 @@ h3 {
   color: white;
   background-color: #436e43;
 }
-h3 a:visited {
+h3 a:visited, a:link {
   color: white;
 }
 
@@ -33,7 +33,7 @@ h3 a:link {
   color: white;
 }
 
-footer {
+footer, nav {
   width: 100%;
   background-color: #436e43;
   color: white;
@@ -43,8 +43,6 @@ footer {
 /* nav bar css */
 
 nav {
-  background-color: #436e43;
-  text-align: center;
   position: relative;
   z-index: 1;
 }
@@ -228,8 +226,9 @@ img {
   display: inline-block;
   background-color: white;
   padding-top: 25px;
-  margin: 10px 10px;
+  margin: 10px;
   height: 300px;
+  border: 3px solid transparent;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -245,31 +244,24 @@ img {
   text-align: center;
   height: 225px;
   overflow: hidden;
+  margin: 0 auto;
+  width: 195px;
+  text-align: center;
+  opacity: 0.5;
 }
 
 .image-desc {
-  margin: 20px 20px;
+  margin: 20px;
   width: 205px;
   max-width: 205px;
   padding: 0;
   text-align: center;
 }
 
-.portrait {
-  margin: 0 auto;
-  width: 195px;
-  text-align: center;
-  opacity: 0.5;
-}
-
 .landscape {
   padding-top: 40px;
-  width: 195px;
-  margin: 0 auto;
-  text-align: center;
-  opacity: 0.5;
 }
 
-.portrait:hover, .landscape:hover {
+.imagebox:hover {
   opacity: 1.0;
 }
