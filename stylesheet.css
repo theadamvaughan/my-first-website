@@ -42,16 +42,16 @@ footer, nav {
 /* nav bar css */
 
 nav {
-  position: relative;
+  background-color: 436e43;
+  position: fixed;
   z-index: 1;
+  top: 0;
+  left: 0;
 }
 
 nav ul {
-  position: fixed;
-  background-color: inherit;
-  top: -20px;
-  width: 100%;
-  left: -20px;
+  margin: 0;
+  padding: 0;
 }
 
 nav li {
@@ -272,26 +272,32 @@ h3 {
 }
 
 h1 {
-  margin-top: 100px;
+  margin-top: 130px;
 }
 
 nav {
-  position: relative;
+  background-color: 436e43;
+  position: fixed;
   z-index: 1;
+  top: 0;
+  left: 0;
 }
 
 nav ul {
-  position: fixed;
-  background-color: inherit;
-  top: -20px;
-  width: 100%;
-  left: -20px;
-  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 nav li {
   display: inline-block;
-  padding: 8px 24px;
+  padding: 16px 24px;
   color: white;
   font-size: 20px;
+  letter-spacing: 0.1em;
+}
+
+
+.contact-form {
+  margin-left: 20px;
+  margin-right: 20px;
 }
